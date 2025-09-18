@@ -9,6 +9,7 @@ COPY package.json package-lock.json /app/
 
 # Install dependencies
 RUN npm install
+# test
 
 # Copy the entire codebase to the working directory
 COPY . /app/

@@ -9,7 +9,7 @@ COPY package.json package-lock.json /app/
 
 # Install dependencies - for application
 RUN npm install
-# test-dummycommit
+# test-dummyco
 
 # Copy the entire codebase to the working directory
 COPY . /app/
